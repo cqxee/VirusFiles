@@ -1,7 +1,7 @@
 local function Reply(msg)
 local text = msg.content_.text_
 if ChatType == 'sp' or ChatType == 'gp'  then
-if not DevAbs:get(DevProx..'Abs:Lock:Reply'..msg.chat_id_) then
+if not DevAbs:get(Virus..'Abs:Lock:Reply'..msg.chat_id_) then
 if text == "ورع" or text == "نجب" or text == "ورعه" or text == "نجبي" or text == "انجبو" or text == "نجبو" then
 if SudoId(msg.sender_user_id_) then
 rd = 'مطوريي اغلط شكد متريد نورتنه ، ♥️💪🏿'
